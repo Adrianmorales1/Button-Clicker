@@ -1,0 +1,130 @@
+* {
+    margin:0px;
+    padding:0px;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}
+
+
+.navbar {
+    height:125px;
+    width: 1200px;
+    background-color: lightgrey;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 80px;
+    margin:0px 50px;
+}
+input[type=search] {
+    border: 2px solid black;
+    height:50px;
+    width:450px;
+    margin:50px;
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+.navbar > button {
+    width:100px;
+    height: 50px;
+    margin:0px 50px;
+    background-color: rgb(52, 119, 233);
+    color:white;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+    font-size:25px;
+}
+
+.left-Side {
+    width: 750px;
+    margin-right: 50px;
+    height:650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top, .bottom {
+    display:flex;
+    align-items: center;
+    border: 3px solid black;
+    height:300px;
+}
+
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height:300px;
+}
+
+.column > button {
+    margin:30px;
+    width:175px;
+    height: 50px;
+    background-color: rgb(255, 237, 37);
+    border: 3px solid black;
+    box-shadow: 4px 3px  black;
+    font-size: 30px;
+    word-spacing: 1px;
+}
+
+.column > h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size:30px;
+    font-weight:10;
+
+}
+
+span {
+    font-style: italic;
+}
+
+p {
+    font-size: 30px;
+    width:400px;
+}
+
+.right-Side {
+    width:400px;
+    height:250px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.right-Side > h1 {
+    width:350px;
+    font-size: 45px;
+    font-weight: 500;
+}
+h1 > span {
+    font-style: normal;
+    font-weight:900;
+}
+
+.right-Side > .addD {
+    width: 350px;
+    height:50px;
+    background-color: rgb(133, 218, 133);
+    font-size: 35px;
+    box-shadow: 4px 3px  black;
+}
